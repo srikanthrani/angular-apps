@@ -4,10 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactUsComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
